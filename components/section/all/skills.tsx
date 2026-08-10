@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <TitleCategory id="skills" title="Mes Compétences">
+    <TitleCategory id="skills" title="Skills">
       <div className="flex flex-wrap gap-2.5">
         {Languages.map((language) => (
           <SkillsCard

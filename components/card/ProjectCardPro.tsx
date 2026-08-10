@@ -33,7 +33,7 @@ export default function ProjectCardPro({
         {url.github && (
           <LinkCard
             url={url.github}
-            title="Voir le projet sur GitHub"
+            title="View project on GitHub"
             icon={<Github size={12} />}
           />
         )}
@@ -41,7 +41,7 @@ export default function ProjectCardPro({
         {url.docs && (
           <LinkCard
             url={url.docs}
-            title="Voir la documentation"
+            title="View documentation"
             icon={<FileText size={14} />}
           />
         )}
@@ -49,7 +49,7 @@ export default function ProjectCardPro({
         {url.site && (
           <LinkCard
             url={url.site}
-            title="Visiter le site web"
+            title="Visit website"
             icon={<ArrowUpRight size={14} />}
           />
         )}

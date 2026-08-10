@@ -2,98 +2,59 @@ import { ArticleXpProps } from "@/types/types";
 
 export const workData: ArticleXpProps[] = [
   {
-    company: "6Team",
-    startDate: "juillet 2026",
-    endDate: "août 2026",
-    titleJob: "Developer",
-    stack: "Angular, Node.js, PostgreSQL",
+    company: "Granular IT",
+    startDate: "February 2025",
+    endDate: "Present",
+    titleJob: "Software Developer Intern",
+    stack: "React, React Native/Expo, TypeScript, Laravel, Supabase",
     missions: [
       {
-        title: "Développement application web",
+        title: "Business systems delivery",
         bulletPoints: [
-          "Développement et conception d'une application web complète sous Angular, Node.js et PostgreSQL.",
-          "Sécurisation des échanges via API REST et intégration de divers services externes.",
-          "Mise en place d'une expérience immersive par la manipulation d'objets 3D interactifs et l'intégration d'environnements de visite virtuelle (ex : Matterport).",
+          "Develop full-stack and mobile applications for ecommerce, loyalty, logistics, warehouse, packhouse and HR automation workflows.",
+          "Work directly with client stakeholders on requirements, QA feedback, delivery priorities and user support.",
+          "Support code reviews, debugging, documentation, testing and CI/CD practices to improve reliability and deployment speed.",
+        ],
+      },
+      {
+        title: "Operational platforms",
+        bulletPoints: [
+          "Built loyalty APIs and dashboards for registration, points, redemptions, refunds, reporting and notifications.",
+          "Developed logistics workflows for sales orders, invoices, dispatch, deliveries, document returns, GPS trip tracking and audit trails.",
+          "Worked on packhouse modules covering receiving, dispatch, stock opname, production runs, cold room, packing, employees and visitor logs.",
         ],
       },
     ],
   },
   {
-    company: "New Mat Mécatronics",
-    startDate: "novembre 2023",
-    endDate: "décembre 2023",
-    titleJob: "Concepteur industriel",
-    stack: "SolidWorks, Excel, CAO, DAO",
+    company: "Granular IT",
+    startDate: "January 2024",
+    endDate: "March 2024",
+    titleJob: "Software Development Intern",
+    stack: "Python, Flask, SOAP, APIs, Testing",
     missions: [
       {
-        title: "Conception d'un prototype de pince industrielle",
+        title: "Engineering support and prototypes",
         bulletPoints: [
-          "Étude de marché et veille concurrentielle.",
-          "Conception sur SolidWorks d'un prototype de pince industrielle, optimisé pour la nouvelle génération de robots de préhension.",
+          "Contributed to code reviews, bug fixes, documentation, database management and deployment scripts.",
+          "Developed automation prototypes including SOAP serial-number checks and Flask-based applications with unit tests.",
+          "Provided end-user support, gathered feedback and participated in Agile meetings to improve usability.",
         ],
       },
     ],
   },
   {
-    company: "Eiffage",
-    startDate: "juin 2023",
-    endDate: "juin 2023",
-    titleJob: "Chargé d'études",
-    stack: "AutoCAD, SolidWorks",
+    company: "Brno International Summer School",
+    startDate: "2024",
+    endDate: "2024",
+    titleJob: "Participant",
+    stack: "YOLOv8, AI, Web Development, Data Integration",
     missions: [
       {
-        title: "Système d'extraction d'air — atelier maintenance Renault",
+        title: "AI warehouse inventory project",
         bulletPoints: [
-          "Plan AutoCAD pour le système d'extraction d'air de l'atelier de maintenance des camions Renault.",
-          "Modélisation 3D du plan final sur SolidWorks.",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Eiffage",
-    startDate: "mars 2023",
-    endDate: "mars 2023",
-    titleJob: "Chargé d'études",
-    stack: "AutoCAD, SolidWorks",
-    missions: [
-      {
-        title: "Système d'extraction d'air — restaurant parisien",
-        bulletPoints: [
-          "Participation à la conception d'un système d'extraction d'air pour un restaurant parisien.",
-          "Conception du plan sur AutoCAD et modélisation en 3D sur SolidWorks.",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Eiffage",
-    startDate: "juin 2022",
-    endDate: "juin 2022",
-    titleJob: "Chargé d'études",
-    stack: "AutoCAD, SolidWorks, Excel, CAO, DAO",
-    missions: [
-      {
-        title: "Mise à jour du plan du bâtiment",
-        bulletPoints: [
-          "Mesure et mise à jour du plan du bâtiment d'Eiffage pour intégrer des modifications.",
-          "Adaptation des plans en fonction des modifications demandées par Renault.",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Eiffage",
-    startDate: "mars 2022",
-    endDate: "mars 2022",
-    titleJob: "Chargé d'études",
-    stack: "AutoCAD, SolidWorks",
-    missions: [
-      {
-        title: "Modélisation d'un système de ventilation",
-        bulletPoints: [
-          "Modélisation en 3D sur SolidWorks d'un plan de système de ventilation fourni sur AutoCAD.",
-          "Conception de pièces techniques en appui aux projets de l'équipe.",
+          "Collaborated with a multidisciplinary team on an AI-enabled warehouse inventory website.",
+          "Used YOLOv8 for real-time object detection and presented the solution to academic and industry assessors.",
         ],
       },
     ],

@@ -4,8 +4,8 @@ import { projects_perso } from "@/data/projects/perso";
 
 export default function ProjectPro() {
   return (
-    <TitleCategory id="projectspro" title="Mes Projets">
-      {projects_perso.slice(0, 4).map((project, index) => (
+    <TitleCategory id="projectspro" title="Selected Projects">
+      {projects_perso.slice(0, 5).map((project, index) => (
         <ProjectCardPro
           key={index}
           title={project.title}

@@ -1,6 +1,5 @@
 import About from "@/components/section/all/about";
 import Footer from "@/components/section/all/footer";
-import GithubGraph from "@/components/section/all/github-graph";
 import Hero from "@/components/section/all/Hero";
 import Skills from "@/components/section/all/skills";
 import ProjectPro from "@/components/section/professional/ProjectPro";
@@ -12,9 +11,8 @@ export default function ProPage() {
     <main className="max-w-220 mx-auto py-12 sm:py-24 px-6 space-y-12">
       <Hero />
       <About />
-      <CompXp data={workData} id="work" title="Expérience professionnelle" />
+      <CompXp data={workData} id="work" title="Professional Experience" />
       <ProjectPro />
-      <GithubGraph />
       <Skills />
       <Footer />
     </main>

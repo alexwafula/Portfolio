@@ -10,9 +10,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Alexis De Jesus | Développeur Fullstack",
+  title: "Alex Wafula Kwoba | Software Developer",
   description:
-    "Portfolio d'Alexis De Jesus : Étudiant et Développeur Fullstack.",
+    "Portfolio of Alex Wafula Kwoba, a software developer focused on full-stack, mobile and operational systems.",
   icons: {
     icon: "/images/sz-icons/icon.svg",
     apple: "/images/sz-icons/icon.svg",
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="fr"
+      lang="en"
       suppressHydrationWarning
       className={`${geistSans.variable} h-full antialiased`}
     >

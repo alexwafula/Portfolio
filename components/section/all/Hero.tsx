@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { socials } from "@/data/user";
 import { MapPin } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { UserSocial } from "@/types/types";
 
@@ -14,31 +13,26 @@ function Hero() {
       <div className="flex flex-row items-center gap-6">
         {/* Profile Image */}
         <div className="flex items-center justify-center shrink-0">
-          <Image
-            src="https://avatars.githubusercontent.com/u/150966588?v=4"
-            alt="Image de profil Flytzi"
-            width={100}
-            height={100}
-            className="rounded-full"
-            loading="eager"
-          />
+          <div className="size-24 rounded-full border border-border bg-card flex items-center justify-center text-2xl font-semibold">
+            AW
+          </div>
         </div>
 
         {/* Text Content */}
         <div className="flex flex-col gap-1 justify-start items-start">
           {/* Name */}
-          <h1 className="md:text-4xl text-2xl font-bold">Alexis De Jesus</h1>
+          <h1 className="md:text-4xl text-2xl font-bold">Alex Wafula Kwoba</h1>
 
           {/* Job Title */}
           <p className="font-light text-lg text-muted-foreground sm:text-left text-center">
-            Développeur Full-Stack
+            Software Developer | Full-Stack, Mobile & Operational Systems
           </p>
 
           {/* Location and Time */}
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
             <span className="inline-flex items-center gap-1.5">
               <MapPin size={16} />
-              Paris, France
+              Nairobi, Kenya
             </span>
             <span>·</span>
             <span>
@@ -46,7 +40,7 @@ function Hero() {
                 hour: "2-digit",
                 minute: "2-digit",
               })}{" "}
-              (GMT+1)
+              (GMT+3)
             </span>
           </div>
         </div>

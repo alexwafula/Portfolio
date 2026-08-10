@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { GraduationCap, Briefcase } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 export default function Home() {
   return (
@@ -10,28 +10,18 @@ export default function Home() {
         id="menustart"
       >
         <h1 className="text-5xl font-bold tracking-tight">
-          Bienvenue sur mon portfolio
+          Alex Wafula Kwoba
         </h1>
         <p className="max-w-xl text-balance text-muted-foreground sm:text-md">
-          Il existe deux versions de ce portfolio : une version{" "}
-          <span className="font-medium text-foreground">professionnelle</span>,
-          axée sur mes compétences et mes projets, et une version{" "}
-          <span className="font-medium text-foreground">étudiante</span>, qui
-          détaille mes études, mon école, mon entreprise et mes projets de
-          cours.
+          Software Developer focused on full-stack, mobile, API-driven and
+          operational business systems.
         </p>
 
         <div className="flex flex-row gap-3">
-          <Link href="/student">
-            <Button size="lg" className="gap-2 rounded-md">
-              <GraduationCap className="size-4" />
-              Étudiants
-            </Button>
-          </Link>
           <Link href="/professional">
-            <Button variant="outline" size="lg" className="gap-2 rounded-md">
+            <Button size="lg" className="gap-2 rounded-md">
               <Briefcase className="size-4" />
-              Professionnels
+              View Portfolio
             </Button>
           </Link>
         </div>

@@ -95,8 +95,8 @@ function ArticleXp({
 function ShowMoreButton({
   isOpen,
   onClick,
-  labelMore = "Voir plus",
-  labelLess = "Voir moins",
+  labelMore = "Show more",
+  labelLess = "Show less",
 }: ShowMoreButtonProps) {
   return (
     <button

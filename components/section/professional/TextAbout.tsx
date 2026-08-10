@@ -4,23 +4,21 @@ export default function TextAboutPro() {
   return (
     <div className="flex flex-col gap-4 text-sm text-muted-foreground">
       <p>
-        Développeur Full-Stack spécialisé dans la création d&apos;applications
-        web modernes, performantes et responsives. Je travaille avec{" "}
+        I build full-stack, mobile and API-driven business applications for
+        ecommerce, loyalty, logistics, warehouse, packhouse and automation
+        workflows. I work with{" "}
         <TextLink text="React" url="#stack" />,{" "}
-        <TextLink text="Tailwind CSS" url="#stack" />,{" "}
+        <TextLink text="React Native/Expo" url="#stack" />,{" "}
         <TextLink text="TypeScript" url="#stack" />,{" "}
-        <TextLink text="Next.js" url="#stack" />,{" "}
-        <TextLink text="Vite" url="#stack" /> et{" "}
-        <TextLink text="Express.js" url="#stack" />
-        {" et l'écosystème moderne du web."}
+        <TextLink text="Laravel" url="#stack" />,{" "}
+        <TextLink text="Supabase" url="#stack" /> and{" "}
+        <TextLink text="WooCommerce APIs" url="#stack" />.
       </p>
       <p>
-        Autonome sur l&apos;ensemble d&apos;un projet - de l&apos;architecture
-        backend à l&apos;interface utilisateur - j&apos;accorde une attention
-        particulière à la qualité du code, aux performances et à
-        l&apos;expérience utilisateur. Curieux et en veille constante,
-        j&apos;aime explorer de nouvelles technologies pour construire des
-        solutions concrètes et pérennes.
+        I focus on reliable systems that match real operational needs:
+        authentication, role-based access, dashboards, audit trails,
+        third-party integrations, testing, documentation and deployable
+        workflows.
       </p>
     </div>
   );

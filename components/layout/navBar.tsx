@@ -1,6 +1,6 @@
 "use client";
 
-import { Moon, Rss, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 import Link from "next/link";
@@ -19,9 +19,8 @@ import { useState } from "react";
 const InfosNav = {
   NoCategory: [],
   Professional: [
-    { title: "Accueil", link: "/professional/", icon: HomeIcon },
-    { title: "Projets", link: "/professional/projects", icon: Briefcase },
-    { title: "Blogs", link: "/professional/blogs", icon: Rss },
+    { title: "Home", link: "/professional/", icon: HomeIcon },
+    { title: "Projects", link: "/professional/projects", icon: Briefcase },
   ],
   Student: [
     { title: "Accueil", link: "/student/", icon: HomeIcon },

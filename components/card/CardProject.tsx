@@ -37,7 +37,7 @@ export default function ProjectCard({
             loading="eager"
           />
         )}
-        <p className="text-sm text-muted-foreground">Aucune image disponible</p>
+        <p className="text-sm text-muted-foreground">No image available</p>
       </div>
       <div className="flex flex-col justify-between flex-1 gap-4 p-2">
         <div className="flex flex-col gap-4 ">
@@ -95,7 +95,7 @@ export default function ProjectCard({
               className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[11px]"
             >
               <Globe size={14} />
-              Site Web
+              Website
             </Link>
           )}
         </div>
