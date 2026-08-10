@@ -12,7 +12,7 @@ import {
 
 export default function CompXp({ data, id, title }: CompXpProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const visibleData = isOpen ? data : data.slice(0, 3);
+  const visibleData = isOpen ? data : data.slice(0, 2);
 
   return (
     <TitleCategory id={id} title={title}>
@@ -22,7 +22,7 @@ export default function CompXp({ data, id, title }: CompXpProps) {
         ))}
       </XpComp>
 
-      {data.length > 3 && (
+      {data.length > 2 && (
         <ShowMoreButton isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
       )}
     </TitleCategory>
