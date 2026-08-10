@@ -8,7 +8,7 @@ interface GridProjectProps {
 export default function GridProject({ projects }: GridProjectProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-      {projects.reverse().map((project, index) => (
+      {projects.map((project, index) => (
         <ProjectCard
           key={index}
           imageSrc={project.image?.[0] || ""}
