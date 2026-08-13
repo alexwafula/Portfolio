@@ -136,6 +136,7 @@
 .bg-pattern {
   position: relative;
   min-height: 100vh;
+  isolation: isolate;
   background-color: hsl(var(--bg-bg));
   background-image:
     radial-gradient(
@@ -152,12 +153,17 @@
   overflow-x: hidden;
 }
 
+.bg-pattern > * {
+  position: relative;
+  z-index: 1;
+}
+
 .bg-pattern::before,
 .bg-pattern::after {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
 }
 
@@ -172,21 +178,21 @@
     linear-gradient(
       245deg,
       transparent 0%,
-      hsl(var(--primary) / 0.1) 20%,
+      color-mix(in oklch, var(--primary) 22%, transparent) 20%,
       transparent 38%
     );
   background-size: 180% 180%, 220% 220%;
-  animation: background-drift 18s ease-in-out infinite alternate;
+  animation: background-drift 14s ease-in-out infinite alternate;
 }
 
 .bg-pattern::after {
-  opacity: 0.55;
+  opacity: 0.9;
   background-image:
     linear-gradient(
       90deg,
       transparent 0,
       transparent 16%,
-      hsl(var(--primary) / 0.18) 16.2%,
+      color-mix(in oklch, var(--primary) 34%, transparent) 16.2%,
       transparent 16.6%,
       transparent 58%,
       hsl(var(--bg-border) / 0.12) 58.2%,
@@ -194,7 +200,7 @@
       transparent 100%
     );
   background-size: 360px 100%;
-  animation: data-lines 24s linear infinite;
+  animation: data-lines 12s linear infinite;
 }
 
 @keyframes background-drift {
