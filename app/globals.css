@@ -170,8 +170,8 @@
 .bg-pattern::before {
   background:
     radial-gradient(circle at 20% 20%, hsl(var(--bg-border) / 0.1) 1px, transparent 1.5px),
-    radial-gradient(circle at 70% 35%, hsl(var(--bg-border) / 0.08) 1px, transparent 1.5px),
-    radial-gradient(circle at 42% 75%, color-mix(in oklch, var(--primary) 18%, transparent) 1px, transparent 1.5px);
+    radial-gradient(circle at 70% 35%, hsl(188 86% 44% / 0.14) 1px, transparent 1.5px),
+    radial-gradient(circle at 42% 75%, hsl(154 64% 52% / 0.1) 1px, transparent 1.5px);
   background-size:
     120px 120px,
     180px 180px,
@@ -180,18 +180,7 @@
 }
 
 .bg-pattern::after {
-  opacity: 0.5;
-  background-image:
-    linear-gradient(
-      135deg,
-      transparent 0,
-      transparent 48%,
-      hsl(var(--bg-border) / 0.08) 49%,
-      transparent 50%,
-      transparent 100%
-    );
-  background-size: 160px 160px;
-  animation: grid-glide 28s linear infinite;
+  display: none;
 }
 
 @keyframes particle-drift {
@@ -206,15 +195,6 @@
       120px 120px,
       -140px 180px,
       240px -160px;
-  }
-}
-
-@keyframes grid-glide {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 160px 160px;
   }
 }
 
