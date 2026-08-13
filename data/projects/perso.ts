@@ -7,7 +7,7 @@ export const projects_perso: ProjectProps[] = [
     role: "Full-Stack / Mobile Developer",
     stack: ["React Native", "Expo", "TypeScript", "Supabase", "EAS"],
     list: { githubLink: "", documentationLink: "", websiteLink: "" },
-    image: [],
+    image: ["/projets/perso/images/invotrak-dashboard.png"],
     status: "En cours",
     favorite: true,
   },
