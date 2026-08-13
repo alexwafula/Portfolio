@@ -40,6 +40,19 @@ export const projects_perso: ProjectProps[] = [
     status: "En cours",
   },
   {
+    title: "Customizable Load Balancer",
+    desc: "Distributed systems school project exploring configurable request routing, backend server selection and load balancing behavior for resilient service traffic distribution.",
+    role: "Distributed Systems Developer",
+    stack: ["Distributed Systems", "Load Balancing", "Backend", "Networking"],
+    list: {
+      githubLink: "https://github.com/alexwafula/Customizable_Load_Balancerr",
+      documentationLink: "",
+      websiteLink: "",
+    },
+    image: [],
+    status: "Terminé",
+  },
+  {
     title: "AI Warehouse Inventory Project",
     desc: "Brno International Summer School project using YOLOv8 and web development to support real-time warehouse inventory object detection.",
     role: "Developer / Team Contributor",
