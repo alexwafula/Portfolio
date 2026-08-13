@@ -17,7 +17,7 @@ export const projects_perso: ProjectProps[] = [
     role: "Full-Stack Developer",
     stack: ["React Router", "TypeScript", "Supabase", "REST APIs"],
     list: { githubLink: "", documentationLink: "", websiteLink: "" },
-    image: [],
+    image: ["/projets/perso/images/loyalty-dashboard.png"],
     status: "En cours",
     favorite: true,
   },
@@ -27,7 +27,7 @@ export const projects_perso: ProjectProps[] = [
     role: "Mobile Developer",
     stack: ["React Native", "Expo", "WooCommerce API", "Firebase", "Redux"],
     list: { githubLink: "", documentationLink: "", websiteLink: "" },
-    image: [],
+    image: ["/projets/perso/images/petstore-app-metrics.png"],
     status: "En cours",
   },
   {
