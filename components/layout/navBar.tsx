@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Logo } from "../icons/icon";
 import {
   Briefcase,
+  BookOpenText,
   Check,
   GraduationCap,
   HomeIcon,
@@ -21,6 +22,7 @@ const InfosNav = {
   Professional: [
     { title: "Home", link: "/professional/", icon: HomeIcon },
     { title: "Projects", link: "/professional/projects", icon: Briefcase },
+    { title: "Writing", link: "/professional/blogs", icon: BookOpenText },
   ],
   Student: [
     { title: "Accueil", link: "/student/", icon: HomeIcon },

@@ -1,4 +1,6 @@
 import HeroBlogs from "@/components/section/blogs/HeroBlogs";
+import BlogList from "@/components/section/blogs/BlogList";
+import { blogPosts } from "@/data/blogs";
 
 export default function Blogs() {
   return (
@@ -7,6 +9,7 @@ export default function Blogs() {
         title="Writing"
         description="Short notes on software delivery, integrations and operational systems."
       />
+      <BlogList posts={blogPosts} />
     </main>
   );
 }

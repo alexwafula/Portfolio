@@ -79,3 +79,13 @@ export interface StackProps {
   categorie: string;
   link: string;
 }
+
+export interface BlogPostProps {
+  title: string;
+  date: string;
+  category: string;
+  summary: string;
+  takeaways: string[];
+  tags: string[];
+  status: "Draft" | "Published";
+}
