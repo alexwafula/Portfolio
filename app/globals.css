@@ -169,55 +169,52 @@
 
 .bg-pattern::before {
   background:
-    linear-gradient(
-      115deg,
-      transparent 0%,
-      hsl(var(--bg-border) / 0.08) 18%,
-      transparent 34%
-    ),
-    linear-gradient(
-      245deg,
-      transparent 0%,
-      color-mix(in oklch, var(--primary) 22%, transparent) 20%,
-      transparent 38%
-    );
-  background-size: 180% 180%, 220% 220%;
-  animation: background-drift 14s ease-in-out infinite alternate;
+    radial-gradient(circle at 20% 20%, hsl(var(--bg-border) / 0.1) 1px, transparent 1.5px),
+    radial-gradient(circle at 70% 35%, hsl(var(--bg-border) / 0.08) 1px, transparent 1.5px),
+    radial-gradient(circle at 42% 75%, color-mix(in oklch, var(--primary) 18%, transparent) 1px, transparent 1.5px);
+  background-size:
+    120px 120px,
+    180px 180px,
+    240px 240px;
+  animation: particle-drift 22s linear infinite;
 }
 
 .bg-pattern::after {
-  opacity: 0.9;
+  opacity: 0.5;
   background-image:
     linear-gradient(
-      90deg,
+      135deg,
       transparent 0,
-      transparent 16%,
-      color-mix(in oklch, var(--primary) 34%, transparent) 16.2%,
-      transparent 16.6%,
-      transparent 58%,
-      hsl(var(--bg-border) / 0.12) 58.2%,
-      transparent 58.6%,
+      transparent 48%,
+      hsl(var(--bg-border) / 0.08) 49%,
+      transparent 50%,
       transparent 100%
     );
-  background-size: 360px 100%;
-  animation: data-lines 12s linear infinite;
+  background-size: 160px 160px;
+  animation: grid-glide 28s linear infinite;
 }
 
-@keyframes background-drift {
+@keyframes particle-drift {
   0% {
-    background-position: 0% 20%, 100% 30%;
+    background-position:
+      0 0,
+      40px 20px,
+      80px 60px;
   }
   100% {
-    background-position: 100% 80%, 0% 70%;
+    background-position:
+      120px 120px,
+      -140px 180px,
+      240px -160px;
   }
 }
 
-@keyframes data-lines {
+@keyframes grid-glide {
   0% {
-    transform: translateX(-120px);
+    background-position: 0 0;
   }
   100% {
-    transform: translateX(120px);
+    background-position: 160px 160px;
   }
 }
 
